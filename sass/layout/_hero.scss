@@ -1,0 +1,53 @@
+.hero-title {
+  font-family: Roboto, sans-serif;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-button {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+}
+.h3-title {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 0, 85;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--text-color);
+}
+.site-hero {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  border: none;
+  & {
+    background-color: var(--focus-color);
+    color: #ffffff;
+  }
+}
+.site-hero {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/background-image.png);
+  background-color: var(--footer-background-color);
+}

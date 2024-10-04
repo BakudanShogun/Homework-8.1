@@ -1,0 +1,36 @@
+.icon:hover,
+.icon:focus {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.regular-customers-list {
+  display: flex;
+}
+.regular-customers-container {
+  width: 170px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  margin-left: 20px;
+  &:hover,
+  &:focus {
+    border-color: var(--focus-color);
+  }
+  &:hover,
+  &:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.regular-customers-icon {
+  width: 106px;
+  fill: rgba(175, 177, 184, 1);
+  .regular-customers-container:hover &,
+  .regular-customers-container:focus & {
+    fill: var(--focus-color);
+  }
+  .regular-customers-container:hover &,
+  .regular-customers-container:focus & {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

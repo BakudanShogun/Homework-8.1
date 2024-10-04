@@ -1,62 +1,62 @@
-.our-crew {
-  background-color: var(--section-background-color);
-}
-.icon-bar-title {
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 0.85;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff;
-}
-.our-team {
-  display: flex;
-  justify-content: space-around;
-}
-.crew-icon-bar-holder {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 30px;
-  padding-bottom: 35px;
-}
-.crew-icon-container {
-  background-color: #ffffff;
-  width: 240px;
-  border-bottom-right-radius: 4%;
-  border-bottom-left-radius: 4%;
-}
-.our-crew-title {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 0.85;
-  letter-spacing: 0.03em;
-  text-align: center;
-  padding-top: 15px;
-  margin-bottom: 15px;
-}
-.our-crew-suptitle {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 0.85;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--contacts-text-color);
-}
-.crew-social-list-icon {
-  width: 20px;
-  height: 20px;
-  fill: rgba(175, 177, 184, 1);
-  &:hover,
-  &:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .icon:hover & {
-    fill: #ffffff;
-  }
-}
-.our-crew__item {
-  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
-}
+// .our-crew {
+//   background-color: var(--section-background-color);
+// }
+// .icon-bar-title {
+//   font-family: Roboto, sans-serif;
+//   font-size: 14px;
+//   font-weight: 700;
+//   line-height: 0.85;
+//   letter-spacing: 0.03em;
+//   text-align: left;
+//   color: #ffffff;
+// }
+// .our-team {
+//   display: flex;
+//   justify-content: space-around;
+// }
+// .crew-icon-bar-holder {
+//   display: flex;
+//   justify-content: space-around;
+//   padding-top: 30px;
+//   padding-bottom: 35px;
+// }
+// .crew-icon-container {
+//   background-color: #ffffff;
+//   width: 240px;
+//   border-bottom-right-radius: 4%;
+//   border-bottom-left-radius: 4%;
+// }
+// .our-crew-title {
+//   font-family: Roboto, sans-serif;
+//   font-size: 16px;
+//   font-weight: 500;
+//   line-height: 0.85;
+//   letter-spacing: 0.03em;
+//   text-align: center;
+//   padding-top: 15px;
+//   margin-bottom: 15px;
+// }
+// .our-crew-suptitle {
+//   font-family: Roboto, sans-serif;
+//   font-size: 16px;
+//   font-weight: 400;
+//   line-height: 0.85;
+//   letter-spacing: 0.03em;
+//   text-align: center;
+//   color: var(--contacts-text-color);
+// }
+// .crew-social-list-icon {
+//   width: 20px;
+//   height: 20px;
+//   fill: rgba(175, 177, 184, 1);
+//   &:hover,
+//   &:focus {
+//     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   }
+//   .icon:hover & {
+//     fill: #ffffff;
+//   }
+// }
+// .our-crew__item {
+//   box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
+// }
